@@ -7,7 +7,7 @@ Android rich Text  support components.
 + add action tag to custom your event everywhere in string
 
 ## manual
-basic use:
+
 Gradle compile
 ```java
 compile 'com.aust:htmstrongtext:0.1.0'
@@ -19,12 +19,12 @@ TextView textView = findViewById(R.id.textView);
 textView.setText(spannedString);
 textView.setMovementMethod(ClickableMovementMethod.getInstance());
 ```
-Action tag
+Action tag exmple
 ```java
-<action name='toast' value='hello world'></action>
+<font color='read'><action name='toast' value='hello world'>Click here!</action></font>
 ```
 
-handle event example
+Handle event example
 ```java
 public class ToastAction extends IAction {
 
@@ -53,4 +53,5 @@ then add your customer Action into list,framework find  it  and trig it's action
 StrongerHtmlText.getInstance().addAction(new ToastAction(this));
 ```
 
+You can final more case in exmaple app 
 
