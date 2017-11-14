@@ -21,7 +21,7 @@ textView.setMovementMethod(ClickableMovementMethod.getInstance());
 ```
 Action tag exmple
 ```java
-<font color='read'><action name='toast' value='hello world'>Click here!</action></font>
+<font color='read'><action name='toast' value='hello world'>Click here!</action>other text description</font>
 ```
 
 Handle event example
