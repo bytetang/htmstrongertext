@@ -19,7 +19,7 @@ TextView textView = findViewById(R.id.textView);
 textView.setText(spannedString);
 textView.setMovementMethod(ClickableMovementMethod.getInstance());
 ```
-Action tag exmple
+Action tag exmaple
 ```java
 <font color='read'><action name='toast' value='hello world'>Click here!</action>other text description</font>
 ```
@@ -53,5 +53,5 @@ then add your customer Action into list,framework find  it  and trig it's action
 StrongerHtmlText.getInstance().addAction(new ToastAction(this));
 ```
 
-You can final more case in exmaple app 
+You can find more case in exmaple app 
 
