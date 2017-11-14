@@ -1,5 +1,5 @@
 # htmstrongertext
-Android rich text  support components.
+Android rich text  support component.
 
 ## feature list
 + support all html tag what android system support
